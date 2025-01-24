@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"/>    
+
+    <link rel="stylesheet" href="./styles/output.css">
+
+    <title>Prince Skins</title>
+    <link rel="shortcut icon" href="assents/Prince Skins Logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+</head>
+<body>
+    <!--Inicio Header-->
+    <header class="w-full h-[420px] bg-zinc-900 bg-home bg-cover bg-center">
+        <div class="w-full h-full flex flex-col justify-center items-center">
+            <img src="assents/Prince Skins Logo.png" alt="Prince Logo" class="w-32 h-32 rounded-full shadow-lg hover:scale-110 duration-200">
+            <h1 class="text-4xl mt-4 mb-2 font-bold text-orange-300">Prince Skins </h1>
+
+            <span class="text-purple-200 font-medium">As melhores Skins com os melhores preços!</span>
+
+            <div class="bg-purple-900 px-4 py-1 rounded-lg mt-4" id="att-span">
+                <span class="text-purple-200 font-medium">Catalogo atualizado diariamente.</span>
+            </div>
+
+        </div>
+    </header>
+    <!--Final Header-->
+
+    <!--Inicio Ultimas adições-->
+    <h2 class="text-2xl md:text-3xl font-bold text-center mt-9 mb-6">
+        Acabaram de chegar!
+    </h2>
+    <!--Final Ultimas adições-->
+
+    <!--Inicio Menu-->
+    <div id="menu">
+
+        <main class="grid grid-cols-1 md:grid-cols-2 gap-7 md:gap-10 mx-auto max-w-7xl px-2 mb-16">
+            <!--Inicio Produto item-->
+            <div class="flex gap-2">
+                <img src="assents/AK-47 Tons de Preto.png" alt="AK Tons de Preto" class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-3 duration-300">
+
+                <div>
+                    <p class="font-bold">AK-47 | Tons de Preto </p>
+                    <p class="text-sm">Pouco Usada (MW) Float: 0.11 | Pattern: 250</p>
+
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg">R$35,00</p>
+                        <button 
+                            class="bg-black  px-5 rounded add-to-cart-btn"
+                            data-name="Tons de Preto"
+                            data-price="35,00"
+                            >
+                            <i class="fa-duotone fa-solid fa-cart-plus text-lg text-purple-400"></i>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+            <!--Final Produto item-->
+
+            <!--Inicio Produto item-->
+            <div class="flex gap-2">
+                <img src="assents/MP9 Monte Fuji.png" alt="MP9 Monte Fuji" class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-3 duration-300">
+
+                <div>
+                    <p class="font-bold">MP9 | Monte Fuji </p>
+                    <p class="text-sm">Testada em campo (FT) Float: 0.23 | Pattern: 543 </p>
+
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg">R$32,00</p>
+                        <button 
+                            class="bg-black  px-5 rounded add-to-cart-btn"
+                            data-name="Monte Fuji"
+                            data-price="32,00"
+                            >
+                            <i class="fa-duotone fa-solid fa-cart-plus text-lg text-purple-400"></i>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+            <!--Final Produto item-->
+
+            <!--Inicio Produto item-->
+            <div class="flex gap-2">
+                <img src="assents/AK-47 Disruptor Fantasma.png" alt="AK Disruptor Fantasma" class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-3 duration-300">
+
+                <div>
+                    <p class="font-bold">AK-47 | Disruptor Fantasma </p>
+                    <p class="text-sm">Nova de Fábrica (FN) Float: 0.06 | Pattern: 709</p>
+
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg">R$75,00</p>
+                        <button 
+                            class="bg-black  px-5 rounded add-to-cart-btn"
+                            data-name="Disruptor Fantasma"
+                            data-price="75,00"
+                            >
+                            <i class="fa-duotone fa-solid fa-cart-plus text-lg text-purple-400"></i>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+            <!--Final Produto item-->
+
+            <!--Inicio Produto item-->
+            <div class="flex gap-2">
+                <img src="assents/AWP Sonho Febril.png" alt="AWP Sonho Febril" class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-3 duration-300">
+
+                <div>
+                    <p class="font-bold">AWP | Sonho Febril</p>
+                    <p class="text-sm">Testada em Campo (FT) Float: 0.23 | Pattern:  119</p>
+
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg">R$75,00</p>
+                        <button 
+                            class="bg-black  px-5 rounded add-to-cart-btn"
+                            data-name="Sonho Febril"
+                            data-price="75,00"
+                            >
+                            <i class="fa-duotone fa-solid fa-cart-plus text-lg text-purple-400"></i>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+            <!--Final Produto item-->
+        </main>
+
+        <div class="mx-auto max-w-7xl px-2 my-2">
+            <h2 class="font-bold text-3xl">
+                Rifles Disponiveis.
+            </h2>
+        </div>
+
+        <!--Inicio Grid Rifles-->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-7 md:gap-10 mx-auto max-w-7xl px-2 mb-16" id="menu">
+
+            <!--Inicio Produto item-->
+            <div class="flex gap-2 w-full">
+                <img src="assents/AK-47 Gelo Compacto.png" alt="AK Gelo Fantasma" class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-3 duration-300">
+
+                <div>
+                    <p class="font-bold">AK-47 | Gelo Compacto </p>
+                    <p class="text-sm">Nova de Fábrica (FN) Float: 0.06 | Pattern: 211</p>
+
+                    <div class="flex items-center gap-2 justify-between  mt-2">
+                        <p class="font-bold text-lg">R$100,00</p>
+                        <button 
+                            class="bg-black  px-5 rounded add-to-cart-btn"
+                            data-name="Gelo Compacto"
+                            data-price="100,00"
+                            >
+                            <i class="fa-duotone fa-solid fa-cart-plus text-lg text-purple-400"></i>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+            <!--Final Produto item-->
+
+            <!--Inicio Produto item-->
+             <div class="flex gap-2 w-full">
+                <img src="assents/M4A4 Grifo.png" alt="M4A4 Grifo" class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-3 duration-300">
+
+                <div>
+                    <p class="font-bold">M4A4 (StatTrak™) | Grifo </p>
+                    <p class="text-sm">Testada em Campo (FT) Float: 0.31 | Pattern: 668</p>
+
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg">R$35,00</p>
+                        <button 
+                            class="bg-black  px-5 rounded add-to-cart-btn"
+                            data-name="Grifo"
+                            data-price="35,00"
+                            >
+                            <i class="fa-duotone fa-solid fa-cart-plus text-lg text-purple-400"></i>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+            <!--Final Produto item-->
+
+            <!--Inicio Produto item-->
+            <div class="flex gap-2 w-full">
+                <img src="assents/AK-47 Legião de Anúbis.png" alt="M4A4 Grifo" class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-3 duration-300">
+
+                <div>
+                    <p class="font-bold">AK-47 | Legião de Anúbis </p>
+                    <p class="text-sm">Pouco Usada (MW) Float: 0.09 | Pattern: 331</p>
+
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg">R$50,00</p>
+                        <button 
+                            class="bg-black  px-5 rounded add-to-cart-btn"
+                            data-name="Legiao de Anubis"
+                            data-price="50,00"
+                            >
+                            <i class="fa-duotone fa-solid fa-cart-plus text-lg text-purple-400"></i>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+            <!--Final Produto item-->
+
+            <!--Inicio Produto item-->
+            <div class="flex gap-2 w-full">
+                <img src="assents/M4A1-S Pesadelo.png" alt="M4A1-S Pesadelo" class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-3 duration-300">
+
+                <div>
+                    <p class="font-bold">M4A1-S | Pesadelo </p>
+                    <p class="text-sm">Nova de  Fabrica (FN) Float: 0.06 | Pattern: 354</p>
+
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg">R$275,00</p>
+                        <button 
+                            class="bg-black  px-5 rounded add-to-cart-btn"
+                            data-name="Pesadelo"
+                            data-price="275,00"
+                            >
+                            <i class="fa-duotone fa-solid fa-cart-plus text-lg text-purple-400"></i>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+            <!--Final Produto item-->
+            
+
+        </div>
+        <!--Final Grid Rifles-->
+
+        <div class="mx-auto max-w-7xl px-2 my-2">
+            <h2 class="font-bold text-3xl">
+                Snipers Disponiveis.
+            </h2>
+        </div>
+
+        <!--Inicio Grid Snipers-->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-7 md:gap-10 mx-auto max-w-7xl px-2 mb-16" id="menu">
+
+            <!--Inicio Produto item-->
+            <div class="flex gap-2 w-full">
+                <img src="assents/AWP Linhas Vermelhas.png" alt="AK Gelo Fantasma" class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-3 duration-300">
+
+                <div>
+                    <p class="font-bold">AWP | Linhas Vermelhas </p>
+                    <p class="text-sm">Testada em Campo (FT) Float: 0.30 | Pattern: 132</p>
+
+                    <div class="flex items-center gap-2 justify-between  mt-2">
+                        <p class="font-bold text-lg">R$280,00</p>
+                        <button 
+                            class="bg-black  px-5 rounded add-to-cart-btn"
+                            data-name="Linhas Vermelhas"
+                            data-price="280,00"
+                            >
+                            <i class="fa-duotone fa-solid fa-cart-plus text-lg text-purple-400"></i>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+            <!--Final Produto item-->
+
+            <!--Inicio Produto item-->
+             <div class="flex gap-2 w-full">
+                <img src="assents/AWP Dualidade.png" alt="AWP Dualidade" class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-3 duration-300">
+
+                <div>
+                    <p class="font-bold">AWP | Dualidade </p>
+                    <p class="text-sm">Nova de Fabrica (FT) Float: 0.04 | Pattern: 629</p>
+
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg">R$70,00</p>
+                        <button 
+                            class="bg-black  px-5 rounded add-to-cart-btn"
+                            data-name="Dualidade"
+                            data-price="70,00"
+                            >
+                            <i class="fa-duotone fa-solid fa-cart-plus text-lg text-purple-400"></i>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+            <!--Final Produto item-->
+
+            <!--Inicio Produto item-->
+            <div class="flex gap-2 w-full">
+                <img src="assents/AWP Mortis.png" alt="AWP Mortis" class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-3 duration-300">
+
+                <div>
+                    <p class="font-bold">AWP | Mortis</p>
+                    <p class="text-sm">Nova de Fabrica (FN) Float: 0.06 | Pattern: 102</p>
+
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg">R$43,00</p>
+                        <button 
+                            class="bg-black  px-5 rounded add-to-cart-btn"
+                            data-name="Mortis"
+                            data-price="43,00"
+                            >
+                            <i class="fa-duotone fa-solid fa-cart-plus text-lg text-purple-400"></i>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+            <!--Final Produto item-->
+       
+        </div>
+        <!--Final Grid Snipers-->
+
+        <div class="mx-auto max-w-7xl px-2 my-2">
+            <h2 class="font-bold text-3xl">
+                Pistolas Disponiveis.
+            </h2>
+        </div>
+
+        <!--Inicio Grid Pistolas-->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-7 md:gap-10 mx-auto max-w-7xl px-2 mb-16" id="menu">
+
+            <!--Inicio Produto item-->
+            <div class="flex gap-2 w-full">
+                <img src="assents/USP Bocarra.png" alt="USP-S Bocarra" class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-3 duration-300">
+
+                <div>
+                    <p class="font-bold">USP-S | Bocarra
+                    </p>
+                    <p class="text-sm">Testada em Campo (FT) Float: 0.21 | Pattern: 722</p>
+
+                    <div class="flex items-center gap-2 justify-between  mt-2">
+                        <p class="font-bold text-lg">R$55,00</p>
+                        <button 
+                            class="bg-black  px-5 rounded add-to-cart-btn"
+                            data-name="Bocarra"
+                            data-price="55,00"
+                            >
+                            <i class="fa-duotone fa-solid fa-cart-plus text-lg text-purple-400"></i>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+            <!--Final Produto item-->
+
+            <!--Inicio Produto item-->
+             <div class="flex gap-2 w-full">
+                <img src="assents/Glock-18 Elemental.png" alt="Glock Elemntal" class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-3 duration-300">
+
+                <div>
+                    <p class="font-bold">Glock-18 | Elemental de Água
+                    </p>
+                    <p class="text-sm">Testada em Campo (FT) Float: 0.17 | Pattern: 439</p>
+
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg">R$28,00</p>
+                        <button 
+                            class="bg-black  px-5 rounded add-to-cart-btn"
+                            data-name="Elemental"
+                            data-price="28,00"
+                            >
+                            <i class="fa-duotone fa-solid fa-cart-plus text-lg text-purple-400"></i>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+            <!--Final Produto item-->
+
+            
+        </div>
+        <!--Final Grid Pistolas-->
+
+        <div class="mx-auto max-w-7xl px-2 my-2">
+            <h2 class="font-bold text-3xl">
+                Submetralhadoras Disponiveis.
+            </h2>
+        </div>
+
+        <!--Inicio Grid Submetralhadoras-->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-7 md:gap-10 mx-auto max-w-7xl px-2 mb-16" id="menu">
+
+            <!--Inicio Produto item-->
+            <div class="flex gap-2 w-full">
+                <img src="assents/MAC-10 Piloto Neon.png" alt="Mac Piloto Neon" class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-3 duration-300">
+
+                <div>
+                    <p class="font-bold">MAC-10 | Piloto Neon </p>
+                    <p class="text-sm">Testada em Campo (FT) Float: 0.19 | Pattern: 158</p>
+
+                    <div class="flex items-center gap-2 justify-between  mt-2">
+                        <p class="font-bold text-lg">R$40,00</p>
+                        <button 
+                            class="bg-black  px-5 rounded add-to-cart-btn"
+                            data-name="Piloto Neon"
+                            data-price="40,00"
+                            >
+                            <i class="fa-duotone fa-solid fa-cart-plus text-lg text-purple-400"></i>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+            <!--Final Produto item-->
+
+            <!--Inicio Produto item-->
+             <div class="flex gap-2 w-full">
+                <img src="assents/MP9 Cadeia Alimentar.png" alt="MP9 Cadeia Alimentar" class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-3 duration-300">
+
+                <div>
+                    <p class="font-bold">MP9 | Cadeia Alimentar</p>
+                    <p class="text-sm">Pouco Usada (MW) Float: 0.13 | Pattern: 547</p>
+
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg">R$30,00</p>
+                        <button 
+                            class="bg-black  px-5 rounded add-to-cart-btn"
+                            data-name="Cadeia Alimentar"
+                            data-price="30,00"
+                            >
+                            <i class="fa-duotone fa-solid fa-cart-plus text-lg text-purple-400"></i>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+            <!--Final Produto item-->
+
+            <!--Inicio Produto item-->
+            <div class="flex gap-2 w-full">
+                <img src="assents/MAC-10 Ratinho.png" alt="MAC Ratinho" class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-3 duration-300">
+
+                <div>
+                    <p class="font-bold">MAC-10 | Ratinho
+                    </p>
+                    <p class="text-sm">Pouco Usada (MW) Float: 0.12 | Pattern: 547</p>
+
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg">R$10,00</p>
+                        <button 
+                            class="bg-black  px-5 rounded add-to-cart-btn"
+                            data-name="Ratinho"
+                            data-price="10,00"
+                            >
+                            <i class="fa-duotone fa-solid fa-cart-plus text-lg text-purple-400"></i>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+            <!--Final Produto item-->
+
+
+            
+        </div>
+        <!--Final Grid Submetralhadoras-->
+
+
+    </div>
+    <!--Final Menu-->
+
+    <!--Inicio Modal Cart-->
+    <div class="bg-purple-900/60 w-full h-full fixed top-0 left-0 z-9[99] items-center justify-center hidden" id="cart-modal">
+
+        <div class="bg-purple-300 p-5 rounded-md min-w[90%] md:min-[600px]:">
+            <h2 class="text-center font-bold text-2xl mb-2">Seu Carrinho</h2>
+
+            <div id="cart-items" class="flex justify-between mb-2 flex-col"></div>
+
+            <p class="font-bold">Valor Total: <span id="cart-total">0,00</span></p>
+
+            <p class="font-bold mt-2">Steam Trade Link:</p>
+            <input type="text"
+            placeholder="informe seu TradeLink!"
+            id="trade"
+            class="w-full border-2 p-1 rounded my-1"
+            />
+            <p class="text-purple-50 hidden" id="trade-warn">Por favor, Informe seu Trade Link!</p>
+
+            <div class="flex items-center gap-2 justify-between mt-5 w-full">
+                <button id="close-modal-btn">Fechar</button>
+                <button id="checkout-btn" class="bg-purple-900 text-purple-100 px-4 py-1 rounded">Finalizar Pedido</button>
+
+            </div>
+        
+
+        </div>
+
+    </div>
+    <!--Final Modal Cart-->
+
+    <!--Inicio Botão Carrinho Footer-->
+    <footer class=" w-full bg-purple-900 py-3 fixed bottom-0  z-40 flex items-center justify-center">
+        <button class="flex items-center gap-2 text-purple-200 font-bold"
+         id="cart-btn"
+        >
+            (<span id="cart-count">0</span>)  
+            Ver carrinho.
+            <i class="fa-duotone fa-solid fa-cart-plus text-lg text-purple-400"></i>
+        </button>
+
+    </footer>
+    <!--Final Botão Carrinho Footer-->
+
+    <script src="script.js"></script>
+</body>
+</html>
